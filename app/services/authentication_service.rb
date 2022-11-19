@@ -49,7 +49,7 @@ class AuthenticationService
 
   def get_current_otp(client)
     otp_response = client[:api][:authenticate].post(account: user, password: pass)
-    current_otp = JSON.parse(otp_response.body, object_class: OpenStruct).otp
+    JSON.parse(otp_response.body, object_class: OpenStruct).otp
   end
 
   def get_hashed_password(password)
