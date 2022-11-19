@@ -1,4 +1,6 @@
 class ProfileRepo
+  include IProfileRepo
+
   AccountNotFound = Class.new(StandardError)
 
   def get_password_from_db(account)

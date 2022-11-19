@@ -1,4 +1,6 @@
 class SlackAdapter
+  include INotifier
+
   attr_reader :client
 
   def initialize

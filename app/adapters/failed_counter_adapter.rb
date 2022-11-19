@@ -1,4 +1,6 @@
 class FailedCounterAdapter
+  include IFailedCounter
+
   attr_reader :client
 
   def initialize
