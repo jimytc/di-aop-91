@@ -77,3 +77,4 @@ end
 gem 'slack-ruby-client'
 gem 'typhoeus'
 gem 'pg'
+gem 'rest-client'
