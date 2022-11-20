@@ -1,5 +1,5 @@
 class SlackAdapter
-  include INotifier
+  include NotifierMethods
 
   attr_reader :client
 

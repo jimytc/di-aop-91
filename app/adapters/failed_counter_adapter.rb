@@ -1,5 +1,5 @@
 class FailedCounterAdapter
-  include IFailedCounter
+  include FailedCounterMethods
 
   attr_reader :client
 

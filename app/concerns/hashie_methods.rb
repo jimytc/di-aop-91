@@ -1,4 +1,4 @@
-module IHashie
+module HashieMethods
   def hashify(password)
     raise NotImplementedError
   end

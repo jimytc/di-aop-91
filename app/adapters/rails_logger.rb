@@ -1,5 +1,5 @@
 class RailsLogger
-  include ILogger
+  include LoggerMethods
 
   def info(message)
     Rails.logger.info(message)

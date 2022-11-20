@@ -1,4 +1,4 @@
-module IFailedCounter
+module FailedCounterMethods
   def is_locked?(account)
     raise NotImplementedError
   end

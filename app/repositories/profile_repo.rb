@@ -1,5 +1,5 @@
 class ProfileRepo
-  include IProfileRepo
+  include ProfileRepoMethods
 
   AccountNotFound = Class.new(StandardError)
 

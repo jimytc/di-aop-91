@@ -1,5 +1,5 @@
 class OtpAdapter
-  include IOtp
+  include OtpMethods
   attr_reader :client
 
   def initialize

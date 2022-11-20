@@ -1,5 +1,5 @@
 class SHA256Adapter
-  include IHashie
+  include HashieMethods
 
   def hashify(password)
     Digest::SHA256.hexdigest(password)

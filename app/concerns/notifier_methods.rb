@@ -1,4 +1,4 @@
-module INotifier
+module NotifierMethods
   def notify(account, message)
     raise NotImplementedError
   end
