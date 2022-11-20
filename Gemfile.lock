@@ -134,6 +134,8 @@ GEM
     mime-types-data (3.2022.0105)
     mini_mime (1.1.2)
     minitest (5.16.3)
+    mocha (2.0.2)
+      ruby2_keywords (>= 0.0.5)
     msgpack (1.6.0)
     multipart-post (2.2.3)
     net-imap (0.3.1)
@@ -260,6 +262,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  mocha
   pg
   pry
   pry-rails
