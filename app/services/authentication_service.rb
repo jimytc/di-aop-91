@@ -13,7 +13,7 @@ class AuthenticationService
   def valid?(account:, password:, otp:)
     is_locked = failed_counter.is_locked?(account)
     if is_locked
-      raise FailedTooManyTimesException, "account #{account}"
+      raise FailedTooManyTimesError, "account #{account}"
     end
 
     password_from_db = profile_repo.get_password_from_db(account)
@@ -31,6 +31,4 @@ class AuthenticationService
       false
     end
   end
-
-  FailedTooManyTimesException = Class.new(StandardError)
 end

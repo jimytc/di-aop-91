@@ -1,0 +1,2 @@
+class FailedTooManyTimesError < StandardError
+end

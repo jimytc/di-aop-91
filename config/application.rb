@@ -20,6 +20,7 @@ module DiAop91
     # config.eager_load_paths << Rails.root.join("extras")
 
     config.autoload_paths << Rails.root.join('app/concerns')
+    config.autoload_paths << Rails.root.join('app/errors')
     config.autoload_paths << Rails.root.join('app/services')
     config.autoload_paths << Rails.root.join('app/repositories')
     config.autoload_paths << Rails.root.join('app/adapters')
